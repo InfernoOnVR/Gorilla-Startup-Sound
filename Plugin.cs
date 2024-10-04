@@ -29,7 +29,7 @@ public class gorillaclosesound : BaseUnityPlugin
 
         string mp3dir = mp3Files[0];
 
-        StartCoroutine(playmp3(mp3dir));
+        CloseCoroutine(playmp3(mp3dir));
     }
 
     IEnumerator playmp3(string mp3filePath)
